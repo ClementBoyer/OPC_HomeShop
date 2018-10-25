@@ -7,4 +7,9 @@ public class TakeAwayDelivery implements Delivery
     {
         return 0;
     }
+
+    @Override
+    public String getInfo() {
+        return "retrait "+ getPrice();
+    }
 }
