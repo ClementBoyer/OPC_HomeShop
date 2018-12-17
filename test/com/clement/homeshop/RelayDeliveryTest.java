@@ -1,5 +1,7 @@
 package com.clement.homeshop;
 
+import com.clement.homeshop.delivery.Delivery;
+import com.clement.homeshop.delivery.RelayDelivery;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

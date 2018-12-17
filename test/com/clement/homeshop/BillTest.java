@@ -1,5 +1,13 @@
 package com.clement.homeshop;
 
+import com.clement.homeshop.bill.Bill;
+import com.clement.homeshop.bill.Writer;
+import com.clement.homeshop.delivery.Delivery;
+import com.clement.homeshop.delivery.RelayDelivery;
+import com.clement.homeshop.product.Fridge;
+import com.clement.homeshop.product.NoProductInBillException;
+import com.clement.homeshop.product.Product;
+import com.clement.homeshop.product.Television;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
