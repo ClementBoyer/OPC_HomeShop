@@ -37,7 +37,7 @@ public class Main {
         }
         catch (NoProductInBillException e)
         {
-            System.err.println("Pas de produit fans la facture");
+            System.err.println("Pas de produit dans la facture");
 
         }
 
